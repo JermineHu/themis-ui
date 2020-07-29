@@ -1,6 +1,6 @@
 #! /usr/bin/make
 CURRENT_DIR := $(shell dirname $(realpath $(lastword $(MAKEFILE_LIST))))
-Version:=v1.0.2
+Version:=v1.0.4
 AppName:=themis-ui
 
 all: build docker push
